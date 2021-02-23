@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10</title>
+</head>
+
+<body>
+
+    <h1>Formularios</h1>
+
+    <form action="" autocomplete="off">
+
+        <fieldset>
+            <input type="text" name="nombre" id="nombre" placeholder="Pedro Pica Papas" required autofocus>
+            <label for="nombre">Nombre</label> <br>
+            <input type="text" name="nombre" id="apellido" disabled>
+            <label for="apellido">Apellido</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Que team eres??</legend>
+            <label for="kong">Team Kong</label>
+            <input type="radio" name="team" id="kong" checked>
+            <label for="godzilla">Team Godzilla</label>
+            <input type="radio" name="team" id="godzilla">
+            <label for="otros">Otros</label>
+            <input type="radio" name="team" id="otros" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Que prefieres más???</legend>
+            <input type="checkbox" name="entretenimiento" id="peliculas" checked >
+            <label for="peliculas">peliculas</label>
+            <input type="checkbox" name="entretenimiento" id="libros" checked>
+            <label for="libros">libros</label>
+            <input type="checkbox" name="entretenimiento" id="series">
+            <label for="series">Series</label>
+        </fieldset>
+
+        <fieldset>
+            <select name="pais" id="pais" size="3" multiple>
+                <option value="Mejico">Mejico</option>
+                <option value="Chile">Chile</option>
+                <option value="Mejico">Mejico</option>
+                <option value="Chile">Chile</option>
+                <option value="Mejico">Mejico</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina" selected>Argentina</option>
+                <option value="Guatemala">Guatemala</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>buscar</legend>
+            <label for="buscar">Busca tu iformación</label>
+            <input type="text" name="buscar" id="buscar" list="tipos">
+            <datalist id="tipos">
+                <option value="Perro">Perro</option>
+                <option value="Perro">Perro</option>
+                <option value="Perro">Perro</option>
+                <option value="Perro">Perro</option>
+                <option value="Perro">Perro</option>
+            </datalist>
+            
+        </fieldset>
+
+        <fieldset>
+            <input type="range" name="" id="" value="150" min="0" max="300">
+        </fieldset>
+
+        <textarea name="mensaje" id="mensaje" cols="40" rows="5" >
+
+        </textarea> <br> <br>
+
+        <input type="password" name="" id=""> <br> <br>
+        <input type="color" name="" id=""> <br> <br>
+        <input type="date" name="" id=""> <br><br>
+        <input type="datetime-local" name="" id=""> <br><br>
+        <input type="email" name="" id=""> <br><br>
+        <input type="file" name="" id=""> <br><br>
+        <input type="month" name="" id=""> <br><br>
+        <input type="number" name="" id="" min="20" max="50"> <br><br>
+        <input type="tel" name="" id=""> <br><br>
+        <input type="time" name="" id=""> <br> <br>
+        <input type="url" name="" id="">
+        
+
+        <input type="reset" value="reset">
+
+        <input type="submit" value="submit" > <br> <br>
+    </form>
+
+
+</body>
+
+</html>
