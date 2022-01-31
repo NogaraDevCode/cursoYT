@@ -1,0 +1,56 @@
+div{
+    height: 50px;
+}
+
+#green{
+    background-color: darkolivegreen;
+}
+#red{
+    background-color: crimson;
+}
+#black{
+    background-color: black;
+}
+body{
+    background-color: magenta;
+}
+
+#hex1{
+    background-color: #ffffff;
+}
+#hex2{
+    background-color: #000000;
+}
+#hex3{
+    background-color: #0000ff;
+}
+
+#rgb1{
+    background-color: rgb(0,0,255);
+}
+#rgb2{
+    background-color: rgb(255,0,0);
+}
+#rgb3{
+    background-color: rgb(0,255,0);
+}
+
+#hsl1{
+    background-color: hsl(0, 100%, 50%);
+}
+#hsl2{
+    background-color: hsl(120, 100%, 50%);
+}
+#hsl3{
+    background-color: hsl(240, 100%, 50%);
+}
+
+#t1{
+    background-color: rgba(255,0,0,0.5);
+}
+#t2{
+    background-color: hsla(120, 100%, 50%, 0.5);
+}
+#t3{
+    background-color: #0000ff9c;
+}

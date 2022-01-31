@@ -1,0 +1,20 @@
+h1{
+    background-color: blueviolet;
+}
+
+#imagen{
+    /* height: 1000px; */
+    background-color: blueviolet;
+    background-image: url(../img/caress.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: right;
+    background-position-y: bottom; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.774);
+}

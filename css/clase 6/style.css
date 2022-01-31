@@ -1,0 +1,19 @@
+*{
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+}
+#uno{
+    background-color: blueviolet;
+    width: 50%;
+    max-width:500px;
+    min-width: 300px;
+    height: 500px;
+}
+#dos{
+    background-color: crimson;
+    height: 50%;
+    min-height: 100px;
+}

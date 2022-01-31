@@ -1,0 +1,31 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    background-color: blueviolet;
+    color:#fff;
+}
+
+tbody{
+    background-color: darkgrey;
+    font-family: Helvetica;
+}
+
+th{
+    padding: 12px;
+    font-size: 20px;
+}
+
+td{
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}

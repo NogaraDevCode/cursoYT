@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px red;
+    text-transform: capitalize;
+}
+span{
+    font-style: italic;
+}
+#p1{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align:justify;
+    text-indent: 30px;
+    text-transform: uppercase;
+}
+
+#h2-1{
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.red1{
+    color: red;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+.red2{
+    color: red;
+    text-decoration: overline;
+    word-spacing: 20px;
+}
+.red3{
+    color: red;
+    text-decoration: line-through;
+}
+
+table, td{
+    border: 1px solid black;
+    height: 100px;
+}
+
+#top{
+    vertical-align: top;
+}
+#mid{
+    vertical-align: middle;
+}
+#bot{
+    vertical-align: bottom;
+}

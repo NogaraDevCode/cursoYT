@@ -1,0 +1,22 @@
+a{
+    color: darkorange;
+    background-color: darkorchid;
+}
+
+/* a:link{
+    color: darkorange;
+}
+
+a:visited{
+    color: darkturquoise;
+} */
+
+a:hover{
+    color: fuchsia;
+    background-color: greenyellow;
+}
+
+a:active{
+    color: hotpink;
+    background-color:lightsalmon;
+}

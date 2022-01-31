@@ -1,0 +1,28 @@
+*{
+    background-color: deepskyblue;
+}
+
+h1{
+    color: coral;
+}
+
+h2{
+    color: cornflowerblue;
+}
+#t3{
+    color: darkgreen;
+}
+#t4{
+    color: pink;
+}
+
+div{
+    background-color: darkmagenta;
+}
+.fondo-amarillo{
+    background-color: darkorange;
+}
+
+#fondo-verde{
+    background-color: green;
+}

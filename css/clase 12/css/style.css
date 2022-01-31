@@ -1,0 +1,28 @@
+
+nav{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+li{
+    display: inline-block;
+    background-color: burlywood;
+    padding: 10px 6px;
+}
+
+
+
+img{
+    width: 100%;
+    display: inline;
+}
+
+div{
+    width: 200px;
+    display: inline-block;
+}
+
+#desaparecer{
+    display: none;
+    /* opacity: .0; */
+}

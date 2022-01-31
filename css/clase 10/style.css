@@ -1,0 +1,13 @@
+ul{
+    /* list-style-type: disclosure-open; */
+    list-style-type: none;
+    list-style-position: inside;
+    /* list-style-image: url(favicon.ico); */
+}
+li{
+    background-color: lightsalmon;
+}
+
+img{
+    width: 10px;
+}
