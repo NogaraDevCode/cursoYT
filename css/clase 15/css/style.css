@@ -1,0 +1,13 @@
+
+body{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
